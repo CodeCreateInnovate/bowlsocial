@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DF9FA3BC414DEBB1EC927F6 /* Pods_bowl_social_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA86480CE048365AEB03436 /* Pods_bowl_social_dev.framework */; };
 		D2103CA71C65AFAB00830F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2103CA61C65AFAB00830F56 /* AppDelegate.swift */; };
 		D2103CA91C65AFAB00830F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2103CA81C65AFAB00830F56 /* ViewController.swift */; };
 		D2103CAC1C65AFAB00830F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2103CAA1C65AFAB00830F56 /* Main.storyboard */; };
-		D2103CAE1C65AFAB00830F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2103CAD1C65AFAB00830F56 /* Assets.xcassets */; };
 		D2103CB11C65AFAB00830F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2103CAF1C65AFAB00830F56 /* LaunchScreen.storyboard */; };
+		D2103CC21C65B03500830F56 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2103CBC1C65B03500830F56 /* RobotoCondensed-Bold.ttf */; };
+		D2103CC31C65B03500830F56 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2103CBD1C65B03500830F56 /* RobotoCondensed-BoldItalic.ttf */; };
+		D2103CC41C65B03500830F56 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2103CBE1C65B03500830F56 /* RobotoCondensed-Italic.ttf */; };
+		D2103CC51C65B03500830F56 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2103CBF1C65B03500830F56 /* RobotoCondensed-Light.ttf */; };
+		D2103CC61C65B03500830F56 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2103CC01C65B03500830F56 /* RobotoCondensed-LightItalic.ttf */; };
+		D2103CC71C65B03500830F56 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2103CC11C65B03500830F56 /* RobotoCondensed-Regular.ttf */; };
+		D2103CCB1C65B5F100830F56 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2103CCA1C65B5F100830F56 /* MaterialView.swift */; };
+		D2103CCE1C65B64B00830F56 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2103CCD1C65B64B00830F56 /* Constants.swift */; };
+		D2103CD01C65BA2000830F56 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2103CCF1C65BA2000830F56 /* Media.xcassets */; };
+		D2826ABA1C703A6700B749E0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2826AB91C703A6700B749E0 /* DataService.swift */; };
+		D286220F1C699E6D00F8790D /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D286220E1C699E6D00F8790D /* MaterialButton.swift */; };
+		D28622111C69A2D100F8790D /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28622101C69A2D100F8790D /* MaterialTextField.swift */; };
+		D296D85E1C6C43CD006F49FE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296D85B1C6C43CD006F49FE /* Bolts.framework */; };
+		D296D85F1C6C43CD006F49FE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296D85C1C6C43CD006F49FE /* FBSDKCoreKit.framework */; };
+		D296D8601C6C43CD006F49FE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296D85D1C6C43CD006F49FE /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DA86480CE048365AEB03436 /* Pods_bowl_social_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bowl_social_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		724B2BB269C5E9FF6A6412DD /* Pods-bowl-social-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bowl-social-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bowl-social-dev/Pods-bowl-social-dev.debug.xcconfig"; sourceTree = "<group>"; };
+		94FEE6151FC4B7437281156C /* Pods-bowl-social-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bowl-social-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-bowl-social-dev/Pods-bowl-social-dev.release.xcconfig"; sourceTree = "<group>"; };
 		D2103CA31C65AFAB00830F56 /* bowl-social-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bowl-social-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2103CA61C65AFAB00830F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2103CA81C65AFAB00830F56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2103CAB1C65AFAB00830F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2103CAD1C65AFAB00830F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2103CB01C65AFAB00830F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2103CB21C65AFAB00830F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2103CBC1C65B03500830F56 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		D2103CBD1C65B03500830F56 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D2103CBE1C65B03500830F56 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		D2103CBF1C65B03500830F56 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		D2103CC01C65B03500830F56 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		D2103CC11C65B03500830F56 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		D2103CCA1C65B5F100830F56 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		D2103CCD1C65B64B00830F56 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D2103CCF1C65BA2000830F56 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		D2826AB91C703A6700B749E0 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		D286220E1C699E6D00F8790D /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		D28622101C69A2D100F8790D /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		D296D85B1C6C43CD006F49FE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D296D85C1C6C43CD006F49FE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D296D85D1C6C43CD006F49FE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D296D85E1C6C43CD006F49FE /* Bolts.framework in Frameworks */,
+				D296D85F1C6C43CD006F49FE /* FBSDKCoreKit.framework in Frameworks */,
+				D296D8601C6C43CD006F49FE /* FBSDKLoginKit.framework in Frameworks */,
+				1DF9FA3BC414DEBB1EC927F6 /* Pods_bowl_social_dev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85BA2F42D2328454DADB8820 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				724B2BB269C5E9FF6A6412DD /* Pods-bowl-social-dev.debug.xcconfig */,
+				94FEE6151FC4B7437281156C /* Pods-bowl-social-dev.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D2103C9A1C65AFAB00830F56 = {
 			isa = PBXGroup;
 			children = (
 				D2103CA51C65AFAB00830F56 /* bowl-social-dev */,
 				D2103CA41C65AFAB00830F56 /* Products */,
+				85BA2F42D2328454DADB8820 /* Pods */,
+				D34AA2B999B9BD8AADA46067 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,92 @@
 		D2103CA51C65AFAB00830F56 /* bowl-social-dev */ = {
 			isa = PBXGroup;
 			children = (
+				D2826AB81C703A5200B749E0 /* Services */,
+				D296D85A1C6C43B0006F49FE /* Frameworks */,
+				D2103CCC1C65B63700830F56 /* Util */,
+				D2103CBB1C65AFEB00830F56 /* Resources */,
+				D2103CBA1C65AFE400830F56 /* Model */,
+				D2103CB91C65AFDE00830F56 /* View */,
+				D2103CB81C65AFD700830F56 /* Controller */,
 				D2103CA61C65AFAB00830F56 /* AppDelegate.swift */,
 				D2103CA81C65AFAB00830F56 /* ViewController.swift */,
 				D2103CAA1C65AFAB00830F56 /* Main.storyboard */,
-				D2103CAD1C65AFAB00830F56 /* Assets.xcassets */,
 				D2103CAF1C65AFAB00830F56 /* LaunchScreen.storyboard */,
 				D2103CB21C65AFAB00830F56 /* Info.plist */,
+				D2103CCF1C65BA2000830F56 /* Media.xcassets */,
 			);
 			path = "bowl-social-dev";
+			sourceTree = "<group>";
+		};
+		D2103CB81C65AFD700830F56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D2103CB91C65AFDE00830F56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2103CCA1C65B5F100830F56 /* MaterialView.swift */,
+				D286220E1C699E6D00F8790D /* MaterialButton.swift */,
+				D28622101C69A2D100F8790D /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D2103CBA1C65AFE400830F56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D2103CBB1C65AFEB00830F56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2103CBC1C65B03500830F56 /* RobotoCondensed-Bold.ttf */,
+				D2103CBD1C65B03500830F56 /* RobotoCondensed-BoldItalic.ttf */,
+				D2103CBE1C65B03500830F56 /* RobotoCondensed-Italic.ttf */,
+				D2103CBF1C65B03500830F56 /* RobotoCondensed-Light.ttf */,
+				D2103CC01C65B03500830F56 /* RobotoCondensed-LightItalic.ttf */,
+				D2103CC11C65B03500830F56 /* RobotoCondensed-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D2103CCC1C65B63700830F56 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D2103CCD1C65B64B00830F56 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		D2826AB81C703A5200B749E0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D2826AB91C703A6700B749E0 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		D296D85A1C6C43B0006F49FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D296D85B1C6C43CD006F49FE /* Bolts.framework */,
+				D296D85C1C6C43CD006F49FE /* FBSDKCoreKit.framework */,
+				D296D85D1C6C43CD006F49FE /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34AA2B999B9BD8AADA46067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DA86480CE048365AEB03436 /* Pods_bowl_social_dev.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2103CB51C65AFAB00830F56 /* Build configuration list for PBXNativeTarget "bowl-social-dev" */;
 			buildPhases = (
+				6BC7BF63010E29DD64D05A8B /* Check Pods Manifest.lock */,
 				D2103C9F1C65AFAB00830F56 /* Sources */,
 				D2103CA01C65AFAB00830F56 /* Frameworks */,
 				D2103CA11C65AFAB00830F56 /* Resources */,
+				4B28CA0B0F2BF534F4571A49 /* Embed Pods Frameworks */,
+				62A96BDC50E023F17C982581 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +251,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2103CC31C65B03500830F56 /* RobotoCondensed-BoldItalic.ttf in Resources */,
 				D2103CB11C65AFAB00830F56 /* LaunchScreen.storyboard in Resources */,
-				D2103CAE1C65AFAB00830F56 /* Assets.xcassets in Resources */,
+				D2103CC21C65B03500830F56 /* RobotoCondensed-Bold.ttf in Resources */,
+				D2103CC51C65B03500830F56 /* RobotoCondensed-Light.ttf in Resources */,
 				D2103CAC1C65AFAB00830F56 /* Main.storyboard in Resources */,
+				D2103CC71C65B03500830F56 /* RobotoCondensed-Regular.ttf in Resources */,
+				D2103CC61C65B03500830F56 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				D2103CD01C65BA2000830F56 /* Media.xcassets in Resources */,
+				D2103CC41C65B03500830F56 /* RobotoCondensed-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B28CA0B0F2BF534F4571A49 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bowl-social-dev/Pods-bowl-social-dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62A96BDC50E023F17C982581 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bowl-social-dev/Pods-bowl-social-dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC7BF63010E29DD64D05A8B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2103C9F1C65AFAB00830F56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28622111C69A2D100F8790D /* MaterialTextField.swift in Sources */,
+				D2826ABA1C703A6700B749E0 /* DataService.swift in Sources */,
+				D2103CCB1C65B5F100830F56 /* MaterialView.swift in Sources */,
 				D2103CA91C65AFAB00830F56 /* ViewController.swift in Sources */,
 				D2103CA71C65AFAB00830F56 /* AppDelegate.swift in Sources */,
+				D2103CCE1C65B64B00830F56 /* Constants.swift in Sources */,
+				D286220F1C699E6D00F8790D /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +433,13 @@
 		};
 		D2103CB61C65AFAB00830F56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724B2BB269C5E9FF6A6412DD /* Pods-bowl-social-dev.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/bowl-social-dev",
+				);
 				INFOPLIST_FILE = "bowl-social-dev/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codecreateinnovate.bowl-social-dev";
@@ -257,8 +449,13 @@
 		};
 		D2103CB71C65AFAB00830F56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FEE6151FC4B7437281156C /* Pods-bowl-social-dev.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/bowl-social-dev",
+				);
 				INFOPLIST_FILE = "bowl-social-dev/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codecreateinnovate.bowl-social-dev";
@@ -285,6 +482,7 @@
 				D2103CB71C65AFAB00830F56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
