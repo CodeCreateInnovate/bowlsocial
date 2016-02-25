@@ -21,12 +21,15 @@
 		D2103CCB1C65B5F100830F56 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2103CCA1C65B5F100830F56 /* MaterialView.swift */; };
 		D2103CCE1C65B64B00830F56 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2103CCD1C65B64B00830F56 /* Constants.swift */; };
 		D2103CD01C65BA2000830F56 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2103CCF1C65BA2000830F56 /* Media.xcassets */; };
+		D217D4E91C76DE2D0070EA29 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D217D4E81C76DE2D0070EA29 /* FeedVC.swift */; };
+		D217D4EB1C76DF2E0070EA29 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D217D4EA1C76DF2E0070EA29 /* PostCell.swift */; };
 		D2826ABA1C703A6700B749E0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2826AB91C703A6700B749E0 /* DataService.swift */; };
 		D286220F1C699E6D00F8790D /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D286220E1C699E6D00F8790D /* MaterialButton.swift */; };
 		D28622111C69A2D100F8790D /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28622101C69A2D100F8790D /* MaterialTextField.swift */; };
 		D296D85E1C6C43CD006F49FE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296D85B1C6C43CD006F49FE /* Bolts.framework */; };
 		D296D85F1C6C43CD006F49FE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296D85C1C6C43CD006F49FE /* FBSDKCoreKit.framework */; };
 		D296D8601C6C43CD006F49FE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296D85D1C6C43CD006F49FE /* FBSDKLoginKit.framework */; };
+		D29C65A91C7F485300908E5C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C65A81C7F485300908E5C /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,12 +51,15 @@
 		D2103CCA1C65B5F100830F56 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		D2103CCD1C65B64B00830F56 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D2103CCF1C65BA2000830F56 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		D217D4E81C76DE2D0070EA29 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		D217D4EA1C76DF2E0070EA29 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		D2826AB91C703A6700B749E0 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D286220E1C699E6D00F8790D /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		D28622101C69A2D100F8790D /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		D296D85B1C6C43CD006F49FE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		D296D85C1C6C43CD006F49FE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		D296D85D1C6C43CD006F49FE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D29C65A81C7F485300908E5C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 		D2103CB81C65AFD700830F56 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D217D4E81C76DE2D0070EA29 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -131,6 +138,7 @@
 				D2103CCA1C65B5F100830F56 /* MaterialView.swift */,
 				D286220E1C699E6D00F8790D /* MaterialButton.swift */,
 				D28622101C69A2D100F8790D /* MaterialTextField.swift */,
+				D217D4EA1C76DF2E0070EA29 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 		D2103CBA1C65AFE400830F56 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D29C65A81C7F485300908E5C /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -322,9 +331,12 @@
 				D2826ABA1C703A6700B749E0 /* DataService.swift in Sources */,
 				D2103CCB1C65B5F100830F56 /* MaterialView.swift in Sources */,
 				D2103CA91C65AFAB00830F56 /* ViewController.swift in Sources */,
+				D217D4E91C76DE2D0070EA29 /* FeedVC.swift in Sources */,
+				D217D4EB1C76DF2E0070EA29 /* PostCell.swift in Sources */,
 				D2103CA71C65AFAB00830F56 /* AppDelegate.swift in Sources */,
 				D2103CCE1C65B64B00830F56 /* Constants.swift in Sources */,
 				D286220F1C699E6D00F8790D /* MaterialButton.swift in Sources */,
+				D29C65A91C7F485300908E5C /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
