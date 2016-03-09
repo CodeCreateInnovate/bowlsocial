@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DF9FA3BC414DEBB1EC927F6 /* Pods_bowl_social_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA86480CE048365AEB03436 /* Pods_bowl_social_dev.framework */; };
+		53D2DFBF47C7370A04B0BED1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263892BCE148C6E3FEBB1741 /* Pods.framework */; };
 		D2103CA71C65AFAB00830F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2103CA61C65AFAB00830F56 /* AppDelegate.swift */; };
 		D2103CA91C65AFAB00830F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2103CA81C65AFAB00830F56 /* ViewController.swift */; };
 		D2103CAC1C65AFAB00830F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2103CAA1C65AFAB00830F56 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		263892BCE148C6E3FEBB1741 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA86480CE048365AEB03436 /* Pods_bowl_social_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bowl_social_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		724B2BB269C5E9FF6A6412DD /* Pods-bowl-social-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bowl-social-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bowl-social-dev/Pods-bowl-social-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		94FEE6151FC4B7437281156C /* Pods-bowl-social-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bowl-social-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-bowl-social-dev/Pods-bowl-social-dev.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				D296D85F1C6C43CD006F49FE /* FBSDKCoreKit.framework in Frameworks */,
 				D296D8601C6C43CD006F49FE /* FBSDKLoginKit.framework in Frameworks */,
 				1DF9FA3BC414DEBB1EC927F6 /* Pods_bowl_social_dev.framework in Frameworks */,
+				53D2DFBF47C7370A04B0BED1 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				6DA86480CE048365AEB03436 /* Pods_bowl_social_dev.framework */,
+				263892BCE148C6E3FEBB1741 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -287,7 +291,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bowl-social-dev/Pods-bowl-social-dev-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		62A96BDC50E023F17C982581 /* Copy Pods Resources */ = {
@@ -302,7 +306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bowl-social-dev/Pods-bowl-social-dev-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6BC7BF63010E29DD64D05A8B /* Check Pods Manifest.lock */ = {
@@ -447,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 724B2BB269C5E9FF6A6412DD /* Pods-bowl-social-dev.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94FEE6151FC4B7437281156C /* Pods-bowl-social-dev.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
